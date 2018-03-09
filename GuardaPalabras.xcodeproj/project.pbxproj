@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98CD88E51EC405FF00968A76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD88E41EC405FF00968A76 /* AppDelegate.swift */; };
+		98CD88E71EC405FF00968A76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD88E61EC405FF00968A76 /* ViewController.swift */; };
+		98CD88EA1EC405FF00968A76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CD88E81EC405FF00968A76 /* Main.storyboard */; };
+		98CD88ED1EC405FF00968A76 /* GuardaPalabras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98CD88EB1EC405FF00968A76 /* GuardaPalabras.xcdatamodeld */; };
+		98CD88EF1EC405FF00968A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CD88EE1EC405FF00968A76 /* Assets.xcassets */; };
+		98CD88F21EC405FF00968A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CD88F01EC405FF00968A76 /* LaunchScreen.storyboard */; };
+		98CD88FA1EC40A1600968A76 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CD88F91EC40A1600968A76 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98CD88E11EC405FF00968A76 /* GuardaPalabras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuardaPalabras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CD88E41EC405FF00968A76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98CD88E61EC405FF00968A76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98CD88E91EC405FF00968A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98CD88EC1EC405FF00968A76 /* GuardaPalabras.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuardaPalabras.xcdatamodel; sourceTree = "<group>"; };
+		98CD88EE1EC405FF00968A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98CD88F11EC405FF00968A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98CD88F31EC405FF00968A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CD88F91EC40A1600968A76 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98CD88DE1EC405FF00968A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98CD88D81EC405FF00968A76 = {
+			isa = PBXGroup;
+			children = (
+				98CD88E31EC405FF00968A76 /* GuardaPalabras */,
+				98CD88E21EC405FF00968A76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98CD88E21EC405FF00968A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98CD88E11EC405FF00968A76 /* GuardaPalabras.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98CD88E31EC405FF00968A76 /* GuardaPalabras */ = {
+			isa = PBXGroup;
+			children = (
+				98CD88E41EC405FF00968A76 /* AppDelegate.swift */,
+				98CD88E61EC405FF00968A76 /* ViewController.swift */,
+				98CD88F91EC40A1600968A76 /* TableViewController.swift */,
+				98CD88E81EC405FF00968A76 /* Main.storyboard */,
+				98CD88EE1EC405FF00968A76 /* Assets.xcassets */,
+				98CD88F01EC405FF00968A76 /* LaunchScreen.storyboard */,
+				98CD88F31EC405FF00968A76 /* Info.plist */,
+				98CD88EB1EC405FF00968A76 /* GuardaPalabras.xcdatamodeld */,
+			);
+			path = GuardaPalabras;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98CD88E01EC405FF00968A76 /* GuardaPalabras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CD88F61EC405FF00968A76 /* Build configuration list for PBXNativeTarget "GuardaPalabras" */;
+			buildPhases = (
+				98CD88DD1EC405FF00968A76 /* Sources */,
+				98CD88DE1EC405FF00968A76 /* Frameworks */,
+				98CD88DF1EC405FF00968A76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuardaPalabras;
+			productName = GuardaPalabras;
+			productReference = 98CD88E11EC405FF00968A76 /* GuardaPalabras.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98CD88D91EC405FF00968A76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Poseto Studio";
+				TargetAttributes = {
+					98CD88E01EC405FF00968A76 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YR8ENK43BV;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 98CD88DC1EC405FF00968A76 /* Build configuration list for PBXProject "GuardaPalabras" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98CD88D81EC405FF00968A76;
+			productRefGroup = 98CD88E21EC405FF00968A76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98CD88E01EC405FF00968A76 /* GuardaPalabras */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98CD88DF1EC405FF00968A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CD88F21EC405FF00968A76 /* LaunchScreen.storyboard in Resources */,
+				98CD88EF1EC405FF00968A76 /* Assets.xcassets in Resources */,
+				98CD88EA1EC405FF00968A76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98CD88DD1EC405FF00968A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CD88E71EC405FF00968A76 /* ViewController.swift in Sources */,
+				98CD88E51EC405FF00968A76 /* AppDelegate.swift in Sources */,
+				98CD88ED1EC405FF00968A76 /* GuardaPalabras.xcdatamodeld in Sources */,
+				98CD88FA1EC40A1600968A76 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98CD88E81EC405FF00968A76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CD88E91EC405FF00968A76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98CD88F01EC405FF00968A76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CD88F11EC405FF00968A76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98CD88F41EC405FF00968A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98CD88F51EC405FF00968A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98CD88F71EC405FF00968A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YR8ENK43BV;
+				INFOPLIST_FILE = GuardaPalabras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.posetostudio.GuardaPalabras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		98CD88F81EC405FF00968A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YR8ENK43BV;
+				INFOPLIST_FILE = GuardaPalabras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.posetostudio.GuardaPalabras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98CD88DC1EC405FF00968A76 /* Build configuration list for PBXProject "GuardaPalabras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CD88F41EC405FF00968A76 /* Debug */,
+				98CD88F51EC405FF00968A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CD88F61EC405FF00968A76 /* Build configuration list for PBXNativeTarget "GuardaPalabras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CD88F71EC405FF00968A76 /* Debug */,
+				98CD88F81EC405FF00968A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98CD88EB1EC405FF00968A76 /* GuardaPalabras.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98CD88EC1EC405FF00968A76 /* GuardaPalabras.xcdatamodel */,
+			);
+			currentVersion = 98CD88EC1EC405FF00968A76 /* GuardaPalabras.xcdatamodel */;
+			path = GuardaPalabras.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 98CD88D91EC405FF00968A76 /* Project object */;
+}
